@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PWA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <meta name="theme-color" content="#009578">
+    <meta name="description" content="This is a PWA">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="manifest" href='./resources/manifest.webmanifest'>
+    <link rel="apple-touch-icon" href="./resources/images/apple-touch-icon.png" >
+    
+    
+    <link rel="stylesheet" href="./css/selection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <a href="./mainpage.html"><i class="fa fa-home"></i></a> 
+    <div style="float:right;margin-right: 45%;">
+        <select name="switch" id="" onchange="if (this.value) window.location.href=this.value;">
+            <option value="./insertion.html">insertion </option>
+            <option value="./database.html">database</option>
+            <option value="./selection.html" selected>selection</option>
+            <option value="./display.html" >display</option>
+            
+        </select>
+    </div>
+    <div style="width: 100%; border: 2px  ;min-height: 85%;margin-top: 20px;">
+        <form action="" style="width: 100%; border: 2px  ;min-height: 85%;margin-top: 20px;"  >
+            <fieldset style="display: inline-flex;width: 100%;margin-left: 10px;margin-right: 10px;">
+                <legend>Conception Physique</legend>
+                <div class="1">
+                    <br>
+                    <br>
+                    <input type="checkbox" name="Conception physique" id="Conception physique" value="Conception physique" onclick="store(this)||Enable(this)" ><label for="Conception physique">Conception Physique</label>
+                </div>
+                <div class="2" style="margin-left:100px" >
+                    
+                    <input type="checkbox" disabled id="Conception mécanique" name="Conception mécanique" value="Conception mécanique"  onclick="store(this)||Enable(this)" ><label for="Conception mécanique">Conception mécanique</label>
+                    <br>
+                    <input type="checkbox" class='end' disabled id="Conception électrique"  name="Conception électrique" value="Conception électrique" onclick="store(this)"><label for="Conception électrique">Conception électrique</label>
+                    <br>
+                    <input type="checkbox" class='end' disabled id="Conception hydraulique et pneumatique" name="Conception hydraulique et pneumatique" value="Conception hydraulique et pneumatique" onclick="store(this)"><label for="Conception et pneumatique">Conception hydraulique</label>
+                </div>
+                
+                <div class="3" style="margin-left:100px">
+                    <input type="checkbox" class='end' disabled id="Maintenabilité" value="Maintenabilité" name="Maintenabilité" onclick="store(this)"><label for="Maintenabilité">Maintenabilité</label>
+                    <br>
+                    <input type="checkbox" class='end'disabled id="Stabilité" value="Stabilité" name="Stabilité" onclick="store(this)"><label for="Stabilité">Stabilité</label>
+                    <br>
+                    <input type="checkbox"  class='end'disabled id="Facteurs géometriques" value="Facteurs géometriques" name="Facteurs géometriques" onclick="store(this)"><label for="Facteurs géometriques">Facteurs géometriques</label>
+                    <br>
+                    <input type="checkbox" class='end' disabled id="Aspects physiques et géometriques" value="Aspects physiques et techniques" name="Aspects physiques et techniques"onclick="store(this)"><label for="Aspects physiques et techniques">Aspects physiques et techniques</label>
+                    <br>
+                    <input type="checkbox" class='end' disabled id="Ergonomie" value="Ergonomie" name="Ergonomie" onclick="store(this)"><label for="Ergonomie">Ergonomie</label>
+    
+                </div>
+            </fieldset>
+    
+            <br>
+            <br>
+    
+            <fieldset style="display: inline-flex;width: 100%;margin-left: 10px;margin-right: 10px;">
+                <legend>Aspect Fonctionnnel</legend>
+                <div class="1">
+                    <br>
+                    <br>
+                    <input type="checkbox" value="Aspect fonctionnel" id="Aspect fonctionnel" onclick="store(this)||Enable(this)"><label for="">Aspect fonctionnel</label>
+                </div>
+                <div class="2" style="margin-left:75px" >
+                    <input type="checkbox" class='end' disabled value="Exigence Générale" id="Exigence Générale" onclick="store(this)"><label for="">Exigence générale</label>
+                    <br>
+                    <input type="checkbox" disabled value="Démarrage et arrêt" id="Démarrage et arrêt" onclick="store(this)||Enable(this)"><label for="">Démarrage et arrêt</label>
+                    <br>
+                    <input type="checkbox" disabled value="Commande" id="Commande" onclick="store(this)||Enable(this)"><label for="">Commande</label>
+                    <br>
+                    <input type="checkbox"disabled value="Opération agricole hautement automatisée" id="Opération agricole hautement automatisée" onclick="store(this)||Enable(this)"><label for="">Opération agricole</label>
+                </div>
+    
+                <div class="3" style="margin-left:75px">
+                    <input type="checkbox"disabled value="Mise à l arrêt" id="Mise à l arrêt" onclick="store(this)||Enable(this)"><label for="">Mise à l'arrêt</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Mise en marche" id="Mise en marche" onclick="store(this)"><label for="">Mise en marche</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Remise en marche aprés interruption" id="Remise en marche aprés interruption" onclick="store(this)"><label for="">Remise en marche</label>
+                    <br>
+                    <input type="checkbox"disabled value="Système de commande" id="Système de commande" onclick="store(this)||Enable(this)"><label for="">Système de commande</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Commande manuelle" id="Commande manuelle" onclick="store(this)"><label for="">Commande manuelle</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Organes de serice" id="Organes de service" onclick="store(this)"><label for="">Organes de serices</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Mise en marche de l opération hautement automatisée" id="Mise en marche de l opération hautement automatisée" onclick="store(this)"><label for="">Mise en marche de l'opération hautement automatisée</label>
+                    <br>
+                    <!-- <select name="Opération"  id="" onselect="Funct(this.options[this.selectedIndex])||Enable(this.options[this.selectedIndex])"> -->
+                    <select name="Opération"  id="" onchange="store(this.options[this.selectedIndex])||Enable(this.options[this.selectedIndex])" >
+                        <option value="" disabled id="" selected ></option>
+                        <option value="Mobilité" disabled id="Mobilité">Mobilité</option>
+                        <option value="Attelage" disabled id="Attelage" >Attelage</option>
+                    </select>
+                </div>
+    
+                <div class="4" style="margin-left:75px" >
+                    <input type="checkbox"disabled class='end' value="Arrêt normal" id="Arrêt normal" onclick="store(this)"><label for="">Arrêt normal</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Arrêt de service" id="Arrêt de service" onclick="store(this)"><label for="">Arrêt de service</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Arrêt d urgence" id="Arrêt d urgence" onclick="store(this)"><label for="">Arrêt d'urgence</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Interruption de l alimentation" id="Interruption de l alimentation" onclick="store(this)"><label for="">Interruption de l'alimentation</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Logiciel" id="Logiciel" onclick="store(this)"><label for="">logiciel</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Matériel" id="Matériel" onclick="store(this)"><label for="">Matériel</label>
+                    <br>
+                    <input type="checkbox"disabled value="Perception" id="Perception" onclick="store(this)||Enable(this)"><label for="">Perception</label>
+                    <br>
+                    <input type="checkbox"disabled value="Planification" id="Planification" onclick="store(this)||Enable(this)"><label for="">Planification</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Action" id="Action"onclick="store(this)"><label for="">Action</label>
+                </div>
+                <div class="5" style="margin-left:75px" >
+                    <input type="checkbox"disabled value="Localisation" id="Localisation"  onclick="store(this)||Enable(this)"><label for="">Localisation</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Détection" id="Détection" onclick="store(this)"><label for="">Détection</label>
+                    <br>
+                    <input type="checkbox"disabled class='end'  value="Interprétation" id="Interprétation" onclick="store(this)"><label for="">Interprétation</label>
+                    <br>
+                    <input type="checkbox"disabled  class='end' value="Décision" id="Décision" onclick="store(this)"><label for="">Décision</label>
+                </div>
+                <div class="6" style="margin-left:75px" >
+                    <input type="checkbox"disabled class='end' value="Globale" id="Globale" onclick="store(this)"><label for="">Globale</label>
+                    <br>
+                    <input type="checkbox"disabled class='end'value="Locale" id="Locale" onclick="store(this)"><label for="">Locale</label>
+                    <br>
+                   
+                </div>
+                
+            </fieldset>
+            <br>
+            <br>
+            
+            <fieldset style="display: inline-flex;width: 100%;margin-left: 10px;margin-right: 10px;">
+                <legend>Informations pour les utilisateurs</legend>
+                <div class="1" >
+                    <br>
+                    <br>
+                    <input type="checkbox" value="Informations pour les utilisateurs" id="Informations pour les utilisateurs" onclick="store(this)||Enable(this)"><label for="">Informations pour les utilisateurs</label>
+                   
+                </div>
+    
+                <div class="2" style="margin-left:100px" >
+                    
+                    <input type="checkbox"disabled class='end'value="Exigence Générale" id="Exigence Générale" onclick="store(this)"><label for="">Exigence Générale</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Surveillance" id="Surveillance" onclick="store(this)"><label for="">Surveillance</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Signaux et dispositifs d avertissement" id="Signaux et dispositifs d'avertissement" onclick="store(this)"><label for="">Signaux et dispositifs d'avertissements</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Inscription, signes et avertissements écrits" id="Inscriptions,signes et avertissements écrits" onclick="store(this)"><label for="">Inscriptions,signes et avertissements écrits</label>
+                    <br>
+                    <input type="checkbox"disabled class='end' value="Documents d acompagnement" id="Documents d'accompagnement" onclick="store(this)"><label for="">Documents d'accompagnement</label>
+                </div>
+    
+                
+            </fieldset>
+            
+                
+        </form>
+    
+    </div>
+    
+    <br>
+    <div style="float:right;justify-content: space-between;">
+        <a href="./display.html"><input type="button" value="Ok" onclick="Ok()"></a> 
+        <!-- <a href="../html/display.html"><input type="button" value="Ok" ></a>  -->
+        <input type="button" value="Cancel" onclick="Cancel()" >
+
+    </div>
+    
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/selection.js"></script>
+
+</body>
+</html>

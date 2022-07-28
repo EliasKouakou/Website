@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/display.css">
+    
+    <!-- <meta name="theme-color" content="#009578">
+    <meta name="description" content="This is a PWA">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="manifest" href='../resources/manifest.webmanifest'>
+    <link rel="apple-touch-icon" href="../resources/images/apple-touch-icon.png" > -->
+
+</head>
+<body>
+    <a href="./mainpage.html"><i class="fa fa-home"></i></a>
+  <div style="float:right;margin-right: 45%;">
+    <select name="switch" id="" onchange="if (this.value) window.location.href=this.value;">
+        <option value="./insertion.html">insertion </option>
+        <option value="./database.html" >database</option>
+        <option value="./selection.html" >selection</option>
+        <option value="./display.html" selected>display</option>
+        
+    </select>
+</div>
+
+
+  <div >
+    
+    
+      <div class="content" style="margin-top: 20px;overflow-y: scroll;overflow-x:scroll;border:1px solid black;width: 100%;min-height:auto;max-height: 85%;">
+
+      </div>
+      
+  <br>
+  <div style="float:right;justify-content: space-between;bottom: 10px;">
+      <a href="./selection.html"><input type="button" value="Home" ></a> 
+  </div>
+
+  </div>
+
+    <!-- <script src="../js/main.js"></script> -->
+
+    <script src="./js/display.js"></script>
+    <script src="./js/displaytree.js"></script>
+        
+</body>
+</html>

@@ -1,0 +1,4 @@
+url='https://eliaskouakou.github.io/MAHAjson/MAHA_DataBase.db.json'
+url='http://localhost:3000/exigences'
+
+url=''../resources/databases/data4.json''

@@ -1,0 +1,146 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 200;
+    font-style: normal;
+    /* background-color: rgb(243, 229, 204); */
+    left: 0;
+    right: 0;
+}
+
+body{
+    width: 100%;
+    /* min-height: 100vh; */
+    left: 0;
+    right: 0;
+}
+
+
+
+
+body>div.main-body{
+    display: flex;
+    width: 100%;
+}
+
+header{
+    /* background-color: wheat; */
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    right: inherit;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+.header-top{
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+#logo{
+    float: left;
+    left: 10px;
+}
+
+#name{
+    font-size:large ;
+    font-weight:bold
+}
+
+#config{
+    float: right;
+    position:absolute;
+    margin-right: 0px;
+
+}
+
+
+
+.header-bottom{
+    /* background-color: coral; */
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+    
+}
+
+
+/* .header-bottom>div{
+   
+} */
+
+.navbar {
+    left: 0;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar li{
+    text-align: center;
+    width: 20%;
+    background-color: red;
+    display: inline-flex;
+    flex-direction: column  ;
+
+}
+
+main{
+    position:absolute;
+    /* background-color: green; */
+    width: 100%;
+    display: inline-flex;
+    bottom: 100px;
+    top: 125px;
+    left: 0;
+    right: 0;
+    flex-grow: 1;
+}
+
+article{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+footer{
+    background-color: aqua;
+    position:absolute;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.top-footer{
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+}
+
+
+.top-footer>div{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.bottom-footer{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+footer>#copyright {
+    color: blue;
+
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    
+
+
+    
+    <fieldset  style="min-height:100%;width: 100%;top:0;bottom: 0;left:0;right:0;position: absolute;">
+        <a href="./mainpage.html"><i class="fa fa-home"></i></a>
+    
+        <div style="float:right;margin-right: 50%;">
+            <select name="switch" id="" onchange="if (this.value) window.location.href=this.value;">
+                <option value="./insertion.html" selected>Insertion </option>
+                <option value="./database.html">database</option>
+               
+                <option value="./selection.html" >selection</option>
+                <option value="./display.html" >display</option>
+                        
+            </select>
+        </div>
+        <br>
+
+
+        
+        <br>
+        <div id='insertion' style="min-height: 85%;">
+            <form action="" style="display: inline-flex; flex-direction: column;width: 100%;" autocomplete="off" >
+                
+                
+                <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                    <label for="id" style="text-align: center;">id</label>    
+                    <input type="number" name="id" id="id" required="required" oninput="displayAllInfo()" >
+                </div>
+
+                <div style="display: inline-flex;">
+
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T1" style="text-align: center;">type1</label>    
+                        <input type="text" name="T1" id="T1" required='required' list="LT1">
+                        <datalist id="LT1">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T2" style="text-align: center;">type2</label>    
+                        <input type="text" name="T2" id="T2" list="LT2">
+                        <datalist id="LT2">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T3" style="text-align: center;">type3</label>    
+                        <input type="text" name="T3" id="T3" list="LT3" >
+                        <datalist id="LT3">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+                 
+
+                </div>
+                <br>
+                <div style="display: inline-flex;">
+
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T4" style="text-align: center;">type4</label>    
+                        <input type="text" name="T4" id="T4" list="LT4">
+                        <datalist id="LT4">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T5" style="text-align: center;">type5</label>    
+                        <input type="text" name="T5" id="T5" list="LT5" >
+                        <datalist id="LT5">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T6" style="text-align: center;">type6</label>    
+                        <input type="text" name="T6" id="T6" list="LT6">
+                        <datalist id="LT6">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="T7" style="text-align: center;">type7</label>    
+                        <input type="text" name="T7" id="T7" list="LT7">
+                        <datalist id="LT7">
+                            <option value="none"></option>
+                        </datalist>
+                    </div>
+
+                </div>
+
+                <br>
+                <br>
+                <div style="margin:0 auto;display: inline-flex;flex-direction: row;" >
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="exigence" style="text-align: center;">Exigence</label>
+                        <textarea name="exigence" id="exigence" cols="30" rows="10" style="margin-right: 50px;" required="required"></textarea>
+                    </div>
+
+                    <div style="margin:0 auto;display: inline-flex;flex-direction: column;">
+                        <label for="source" style="text-align: center;">Source</label>
+                        <textarea  name="source" id="source" cols="30" rows="10" style="margin-left: 50px;" required="required"></textarea>
+                    </div>
+
+                    
+                    
+                </div> 
+                <br>
+                <br>               
+            <!-- <input type="submit" value="check" > -->
+            </form>      
+        </div>
+
+        <hr>
+        
+        <div style="margin:0 auto;width: 200px;justify-content: space-between;">
+            <input type="button" value="Save" onclick="Save()">
+            <input type="button" value="Add" onclick="Add()">
+            <input type="button" value="Delete" onclick="Delete()">   
+
+        </div>
+       
+        <br>
+        
+        
+        <div style="float:right;justify-content: space-between;">
+           
+            <a href="./database.html"><input type="submit" value="Ok" onclick="Display()" ></a> 
+            <input type="button" value="Cancel" onclick="Cancel()">
+        </div>
+        
+    </fieldset>
+    <script  src="./js/insertion.js"></script>
+</body>
+</html>

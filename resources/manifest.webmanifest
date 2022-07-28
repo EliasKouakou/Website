@@ -1,0 +1,13 @@
+{
+    "name":"PWA app",
+    "short_name":"PWA ",
+
+    "start_url":".",
+    "background_color":"#6dcdb1",
+    "theme_color":"#009578",
+    "display":"standalone",
+    "scope":"/",
+    "icons":[
+        {"src":"images/image.png","sizes":"512x512","type":"image/png"},
+        {"src":"images/apple-touch-icon.png","sizes":"192x192","type":"image/png"}]
+}

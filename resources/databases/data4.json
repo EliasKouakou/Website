@@ -1,0 +1,224 @@
+{
+  "Conception physique": {
+    "Conception m\u00e9canique": {
+      "Facteurs g\u00e9ometriques": {
+        "Arr\u00eat normal": {
+          "D\u00e9tection": {
+            "NULL": {
+              "NULL": {}
+            },
+            "Assurer une posture de travail adapt\u00e9e et une bonne accessibilit\u00e9 des organes de service": "NF EN ISO 12100:2010"
+          }
+        },
+        "Les zones de travail et les zones dangereuses soient autant que possible visibles depuis le poste de commande": "NF EN ISO 12100:2010",
+        "Augmentation de l'\u00e9cartement minimal entre les pi\u00e8ces en mouvement ou r\u00e9duction de cet \u00e9cartement de fa\u00e7on qu'aucune partie du corps ne puisse y entrer": "ISO 13854 \nISO 13857",
+        "La suppression des ar\u00eates vives, des angles vifs, des pi\u00e8ces saillantes et des surfaces rugueuses": "NF EN ISO 12100:2010"
+      },
+      "Aspects physiques et techniques": {
+        "La limitation de l'effort d'entra\u00eenement, de la masse et/ou de la vitesse des \u00e9l\u00e9ments mobiles, et des \u00e9missions": "NF EN ISO 12100:2010",
+        "Traiter les contraintes m\u00e9caniques (construction, fixation ad\u00e9quates, fatigue, \u00e9quilibrage statique et dynamique des \u00e9l\u00e9ments tournants)": "NF EN ISO 12100:2010",
+        "Traiter les mat\u00e9riaux et leur propri\u00e9t\u00e9s (la r\u00e9sistance \u00e0 la corrosion, au vieillissement, \u00e0 l'abrasion et \u00e0 l'usure, la duret\u00e9, la ductilit\u00e9, la fragilit\u00e9, l'homog\u00e9n\u00e9it\u00e9, la toxicit\u00e9, et l'inflammabilit\u00e9)": "NF EN ISO 12100:2010",
+        "Eclairage incorpor\u00e9, adapt\u00e9 aux op\u00e9rations l\u00e0 o\u00f9 l\u2019absence d\u2019un tel dispositif pourrait cr\u00e9er un risque": "NF EN ISO 12100:2010",
+        "Application du principe de l'action m\u00e9canique positive": "NF EN ISO 12100:2010"
+      },
+      "Stabilit\u00e9": {
+        "La stabilit\u00e9 doit \u00eatre prise en compte pendant toutes les phases du cycle de vie de la machine, y compris la manutention, les d\u00e9placements, l'installation, l'utilisation, le d\u00e9montage, la mise hors service et la mise au rebut. Les facteurs \u00e0 prendre en compte comprennent :\n* La g\u00e9om\u00e9trie de la surface d'appui\n* La g\u00e9om\u00e9trie de la surface d'appui\n* La distribution des masses, compte tenu de la charge\n* Les efforts dynamiques r\u00e9sultant de mouvements de parties de la machine, de la machine elle-m\u00eame, ou d'\u00e9l\u00e9ments tenus par la machine, qui pourraient \u00eatre \u00e0 l'origine d'un moment de renversement": "NF EN ISO 12100:2010",
+        "La machine, ainsi que ses \u00e9l\u00e9ments et ses \u00e9quipements, doivent \u00eatre suffisamment stables pour \u00e9viter le renversement, la chute ou les mouvements incontr\u00f4l\u00e9s durant le transport, le montage, le d\u00e9montage et toute autre action impliquant la machine.": "NF EN ISO 12100:2010",
+        "Si la forme m\u00eame de la machine ou son installation pr\u00e9vue ne permet pas d'assurer une stabilit\u00e9 suffisante, des moyens de fixation appropri\u00e9s doivent \u00eatre pr\u00e9vus et indiqu\u00e9s dans la notice d'instructions.": "NF EN ISO 12100:2010"
+      },
+      "Maintenabilit\u00e9": {
+        "Prendre en consid\u00e9ration les facteurs de maintenabilit\u00e9 suivants pour permettre l'entretien de la machine :\n* Accessibilit\u00e9, compte tenu de l'environnement et des dimensions anthropom\u00e9triques, y compris l'encombrement des v\u00eatements de travail et des outils utilis\u00e9s\n* Facilit\u00e9 de la manutention, compte tenu des possibilit\u00e9s humaines\n* Pr\u00e9sence d\u2019un dispositif d\u2019\u00e9clairage appropri\u00e9s pour les zones d\u2019entretien, et les parties int\u00e9rieures qui doivent \u00eatre inspect\u00e9es et r\u00e9gl\u00e9es fr\u00e9quemment\n* Limitation du nombre d'outils et accessoires sp\u00e9ciaux": "NF EN ISO 12100:2010"
+      },
+      "Ergonomie": {
+        "Application des principes ergonomiques afin de r\u00e9duire la sollicitation et la charge physique et mentale de l'op\u00e9rateur": "NF EN ISO 12100:2010",
+        "Prises en compte des caract\u00e9ristiques anthropom\u00e9triques susceptibles d'\u00eatre rencontr\u00e9es dans la population d'utilisateurs pr\u00e9vue, les efforts et les postures, l'amplitude des mouvements, la fr\u00e9quence des actions cycliques.": "NF EN ISO 12100:2010\nISO 10075 \nISO 10075-2",
+        "Tous les \u00e9l\u00e9ments de l'interface op\u00e9rateur-machine, tels que les commandes, les moyens de signalisation ou d'affichage de donn\u00e9es, doivent \u00eatre con\u00e7us de mani\u00e8re \u00e0 \u00eatre facilement compris et \u00e0 permettre une interaction claire et sans \u00e9quivoque entre l'op\u00e9rateur et la machine.": "NF EN ISO 12100:2010\nEN 614-1\nEN 13861\nCEI 61310-1",
+        "Il convient que l'\u00e9cran de contr\u00f4le se trouve \u00e0 1,2 m maximum des yeux du conducteur. Si l\u2019emplacement de l\u2019\u00e9cran de contr\u00f4le est sup\u00e9rieur \u00e0 1,2 m du point des yeux de l\u2019op\u00e9rateur, les images affich\u00e9es doivent \u00eatre agrandies proportionnellement suivant l\u2019\u00e9cran de contr\u00f4le.": "NF EN ISO 12100:2010\nEN ISO 16001",
+        "L'\u00e9cran doit \u00eatre positionn\u00e9 de mani\u00e8re \u00e0 minimiser l'\u00e9blouissement produit par la lumi\u00e8re directe du soleil.": "NF EN ISO 12100:2010\nEN ISO 16001"
+      }
+    },
+    "Conception \u00e9lectrique": {
+      "La CEI 60204-1 donne des dispositions g\u00e9n\u00e9rales relatives au sectionnement et \u00e0 la coupure des circuits \u00e9lectriques ainsi qu'\u00e0 la protection contre les chocs \u00e9lectriques": "NF EN ISO 12100:2010\nCEI 60204-1",
+      "La machine doit \u00eatre con\u00e7ue et construite pour emp\u00eacher ou limiter l'apparition de charges \u00e9lectrostatiques potentiellement dangereuses et/ou \u00eatre \u00e9quip\u00e9e des moyens permettant de les \u00e9couler": "NF EN ISO 12100:2010"
+    },
+    "Conception hydraulique et pneumatique": {
+      "Que la pression maximale admissible ne puisse pas \u00eatre d\u00e9pass\u00e9e dans les circuits": "NF EN ISO 12100:2010",
+      "Qu\u2019aucun ph\u00e9nom\u00e8ne dangereux ne puisse r\u00e9sulter de variations ou d'une augmentation de pression, ni d'une chute de pression ou de la r\u00e9duction d'une d\u00e9pression": "NF EN ISO 12100:2010",
+      "Qu\u2019aucun jet dangereux de fluide ou mouvement brusque dangereux d'un tuyau flexible (coup de fouet) ne puisse r\u00e9sulter d'une fuite ou de la d\u00e9faillance de composants": "NF EN ISO 12100:2010",
+      "Que les r\u00e9cepteurs pneumatiques, les r\u00e9servoirs d'air ou les cuves similaires soient conformes aux codes ou r\u00e9glementations de conception qui leur sont applicables": "NF EN ISO 12100:2010",
+      "Que tous les \u00e9l\u00e9ments de l'\u00e9quipement, et particuli\u00e8rement les tuyauteries rigides et flexibles, soient prot\u00e9g\u00e9s contre les agressions externes\n": "NF EN ISO 12100:2010",
+      "Que, dans toute la mesure du possible, les r\u00e9servoirs et cuves similaires soient ramen\u00e9s automatiquement \u00e0 la pression atmosph\u00e9rique lorsque la machine est s\u00e9par\u00e9e de sa source d'\u00e9nergie et, si cela n'est pas possible, que des moyens soient pr\u00e9vus pour isoler ces r\u00e9servoirs ou capacit\u00e9s et les mettre s\u00e9par\u00e9ment \u00e0 la pression atmosph\u00e9rique, ainsi que pour indiquer la pression qui y r\u00e8gne. ": "NF EN ISO 12100:2010\nISO 14118:2000, Article 5",
+      "Que tous les \u00e9l\u00e9ments qui restent sous pression apr\u00e8s s\u00e9paration de la machine de sa source d'\u00e9nergie soient munis de dispositifs de mise \u00e0 la pression atmosph\u00e9rique clairement identifi\u00e9s, une inscription d'avertissement attirant l'attention sur la n\u00e9cessit\u00e9 de mise \u00e0 la pression atmosph\u00e9rique avant toute intervention de r\u00e9glage ou de maintenance sur la machine": "NF EN ISO 12100:2010",
+      "Que, lors de l\u2019emploi de fluides, la machine doit \u00eatre con\u00e7ue et construite pour \u00e9viter les risques dus au remplissage, \u00e0 l'utilisation, \u00e0 la r\u00e9cup\u00e9ration et \u00e0 l'\u00e9vacuation.": "NF EN ISO 12100:2010"
+    }
+  },
+  "Aspect fonctionnel": {
+    "Exigence G\u00e9n\u00e9rale": {
+      "Analyse syst\u00e9matique des conditions de mise en marche et d'arr\u00eat": "Analyse syst\u00e9matique des conditions de mise en marche et d'arr\u00eat",
+      "Disponibilit\u00e9 de modes op\u00e9ratoires particuliers (par exemple mise en marche apr\u00e8s un arr\u00eat normal, remise en marche apr\u00e8s une interruption du cycle ou un arr\u00eat d'urgence, fonctionnement d'une partie seulement de la machine en cas de d\u00e9faillance d'un de ses \u00e9l\u00e9ments)": "Disponibilit\u00e9 de modes op\u00e9ratoires particuliers (par exemple mise en marche apr\u00e8s un arr\u00eat normal, remise en marche apr\u00e8s une interruption du cycle ou un arr\u00eat d'urgence, fonctionnement d'une partie seulement de la machine en cas de d\u00e9faillance d'un de ses \u00e9l\u00e9ments)",
+      "Affichage en clair des d\u00e9fauts": "Affichage en clair des d\u00e9fauts",
+      "Mesures emp\u00eachant la g\u00e9n\u00e9ration accidentelle d'ordres de mise en marche intempestifs (organe de mise en marche prot\u00e9g\u00e9, par exemple) pouvant entra\u00eener un comportement dangereux de la machine.": "Mesures emp\u00eachant la g\u00e9n\u00e9ration accidentelle d'ordres de mise en marche intempestifs (organe de mise en marche prot\u00e9g\u00e9, par exemple) pouvant entra\u00eener un comportement dangereux de la machine."
+    },
+    "D\u00e9marrage et arr\u00eat": {
+      "Mise en marche": {
+        "Le d\u00e9marrage de la machine n\u00e9cessite un op\u00e9rateur local": "NF EN ISO 18497 ",
+        "Le d\u00e9marrage d'un moteur \u00e0 combustion interne ne doit pas mettre en mouvement une machine mobile": "NF EN ISO 18497 ",
+        "Le raccordement au r\u00e9seau \u00e9lectrique ne doit pas mettre en marche les \u00e9l\u00e9ments de travail d'une machine \u00e9lectrique\n": "NF EN ISO 18497 ",
+        "Lorsque la machine est aliment\u00e9e par une \u00e9nergie autre qu'\u00e9lectrique, elle doit \u00eatre con\u00e7ue, construite et \u00e9quip\u00e9e de mani\u00e8re \u00e0 \u00e9viter tous les risques potentiels li\u00e9s \u00e0 ces sources d'\u00e9nergie.": "NF EN ISO 18497 "
+      },
+      "Mise \u00e0 l arr\u00eat": {
+        "Arr\u00eat normal": {
+          "Commandes d'arr\u00eat maintenues (par exemple sous l'effet d'un dispositif de verrouillage) en vue d'emp\u00eacher un red\u00e9marrage pouvant entra\u00eener un comportement dangereux de la machine ": "ISO 14118:2000, Figure 1",
+          "Un organe de service permettant l\u2019arr\u00eat complet en toute s\u00e9curit\u00e9": " NF EN ISO 18497 ",
+          "Chaque poste de travail doit \u00eatre muni d'un organe de service permettant d'arr\u00eater tout ou partie des fonctions de la machine": "NF EN ISO 18497 ",
+          "L'ordre d'arr\u00eat de la machine doit \u00eatre prioritaire sur les ordres de mise en marche": "NF EN ISO 18497 ",
+          "L'arr\u00eat de la machine ou de ses fonctions dangereuses \u00e9tant obtenu, l'alimentation en \u00e9nergie des actionneurs concern\u00e9s doit \u00eatre interrompue.\n": "NF EN ISO 18497 "
+        },
+        "Arr\u00eat de service": {
+          "Lorsque, pour des raisons de service, il convient de recourir \u00e0 une commande d'arr\u00eat qui n'interrompt pas l'alimentation en \u00e9nergie des actionneurs, la fonction arr\u00eat doit \u00eatre surveill\u00e9e et maintenue.": "NF EN ISO 18497 "
+        },
+        "Arr\u00eat d urgence": {
+          "La machine doit \u00eatre munie d'un ou de plusieurs dispositifs d'arr\u00eat d'urgence permettant d'\u00e9viter des situations dangereuses qui sont en train de se produire ou qui sont imminentes.": "NF EN ISO 12100:2010\n NF EN ISO 18497 ",
+          "Un syst\u00e8me de ralentissement et de mise \u00e0 l'arr\u00eat utilisable en cas de d\u00e9faillance du syst\u00e8me de freinage principal": "NF EN ISO 18497 ",
+          "La fonction d'arr\u00eat d'urgence doit \u00eatre maintenue, disponible et op\u00e9rationnelle \u00e0 tout moment, quel que soit le mode op\u00e9ratoire.": "NF EN ISO 18497 ",
+          "Le r\u00e9armement ne doit pouvoir s'effectuer qu'\u00e0 l'emplacement d'o\u00f9 l'ordre d'arr\u00eat d'urgence a \u00e9t\u00e9 donn\u00e9.": "NF EN ISO 18497 ",
+          "La d\u00e9sactivation du dispositif ne doit pas remettre la machine en marche mais seulement d'autoriser un red\u00e9marrage.": "NF EN ISO 18497 ",
+          "Le processus dangereux doit s'arr\u00eater en un temps aussi r\u00e9duit que possible sans cr\u00e9er de ph\u00e9nom\u00e8nes dangereux suppl\u00e9mentaires; si cela est impossible ou si le risque ne peut pas \u00eatre r\u00e9duit, il convient de se demander si l'arr\u00eat d'urgence est ou non une bonne solution;": "NF EN ISO 12100:2010",
+          "La commande d'arr\u00eat d'urgence doit d\u00e9clencher ou permettre de d\u00e9clencher certains mouvements de sauvegarde lorsque cela est n\u00e9cessaire.": "NF EN ISO 12100:2010",
+          "Dans le cas de machines ou d'\u00e9l\u00e9ments de machines con\u00e7us pour travailler ensemble, les commandes d'arr\u00eat, y compris les dispositifs d'arr\u00eat d'urgence, doivent arr\u00eater non seulement la machine, mais aussi tous les \u00e9quipements associ\u00e9s si leur maintien en fonctionnement peut constituer un danger.": "NF EN ISO 12100:2010",
+          "Des d\u00e9tails suppl\u00e9mentaires pour la conception et la s\u00e9lection des composants et \u00e9l\u00e9ments \u00e9lectriques permettant d'assurer la fonction d'arr\u00eat d'urgence sont donn\u00e9s dans la CEI 60204.": "NF EN ISO 12100:2010",
+          "NOTE Pour des dispositions plus d\u00e9taill\u00e9es, voir l'ISO 13850.": "NF EN ISO 12100:2010",
+          "Un ensemble de machines peut \u00eatre subdivis\u00e9 en plusieurs zones pour l'arr\u00eat d'urgence, l'arr\u00eat provoqu\u00e9 par des dispositifs de protection et/ou la consignation. Les diff\u00e9rentes zones doivent \u00eatre clairement d\u00e9limit\u00e9es et l'affectation des diff\u00e9rentes parties de la machine \u00e0 ces diff\u00e9rentes zones doit \u00eatre \u00e9vidente.": "NF EN ISO 12100:2010"
+        },
+        "Interruption de l alimentation": {
+          "La fonction d'arr\u00eat de la machine doit \u00eatre pr\u00e9serv\u00e9e": "NF EN ISO 12100:2010",
+          "Tous les dispositifs dont le maintien en fonctionnement est n\u00e9cessaire pour la s\u00e9curit\u00e9 doivent rester op\u00e9rants": "NF EN ISO 12100:2010",
+          "Les parties de machines ou les \u00e9l\u00e9ments et/ou charges tenus par une machine et qui sont susceptibles de se mouvoir sous l'effet de leur \u00e9nergie potentielle doivent \u00eatre retenus le temps n\u00e9cessaire pour qu'ils puissent \u00eatre abaiss\u00e9s en s\u00e9curit\u00e9": "NF EN ISO 12100:2010"
+        }
+      },
+      "Remise en marche apr\u00e9s interruption": {
+        "La remise en marche spontan\u00e9e d'une machine lorsqu'elle est r\u00e9aliment\u00e9e en \u00e9nergie apr\u00e8s une interruption doit \u00eatre emp\u00each\u00e9e": "NF EN ISO 12100:2010",
+        "Si le moteur cale, son red\u00e9marrage doit n\u00e9cessiter un d\u00e9clenchement par l'op\u00e9rateur.": "NF EN ISO 12100:2010"
+      }
+    },
+    "Commande": {
+      "Syst\u00e8me de commande": {
+        "Mat\u00e9riel": {
+          "Choisi et install\u00e9 de fa\u00e7on \u00e0 satisfaire aux exigences fonctionnelles et aux exigences de performance correspondant aux fonctions de s\u00e9curit\u00e9 \u00e0 r\u00e9aliser, notamment en faisant appel \u00e0 des mesures relatives \u00e0 l'architecture du syst\u00e8me, au choix (et/ou \u00e0 la conception) d'\u00e9quipements et de dispositifs pr\u00e9sentant une probabilit\u00e9 ad\u00e9quate de d\u00e9faillance mat\u00e9rielle al\u00e9atoire dangereuse, et \u00e0 l'int\u00e9gration au mat\u00e9riel de mesures et de techniques permettant d'\u00e9viter les d\u00e9faillances syst\u00e9matiques et de ma\u00eetriser les d\u00e9fauts syst\u00e9matiques": "NF EN ISO 12100:2010",
+          "Les syst\u00e8mes de commande doivent \u00eatre con\u00e7us de mani\u00e8re \u00e0 limiter les mouvements des \u00e9l\u00e9ments de la machine, de la machine elle-m\u00eame ou des pi\u00e8ces et/ou charges tenues par la machine aux param\u00e8tres de s\u00e9curit\u00e9 pr\u00e9vus par conception (par exemple amplitude, vitesse, acc\u00e9l\u00e9ration, d\u00e9c\u00e9l\u00e9ration, charge utile). Les effets dynamiques (balancement des charges, par exemple) doivent \u00eatre pris en consid\u00e9ration.": "NF EN ISO 12100:2010",
+          "Lorsque la machine contient plusieurs \u00e9l\u00e9ments qui peuvent \u00eatre utilis\u00e9s ind\u00e9pendamment les uns des autres, le syst\u00e8me de commande doit \u00eatre con\u00e7u de mani\u00e8re \u00e0 pr\u00e9venir les risques r\u00e9sultant d'un d\u00e9faut de synchronisation (par exemple syst\u00e8me anticollisions).": "NF EN ISO 12100:2010",
+          "Le mode de commande ou de fonctionnement s\u00e9lectionn\u00e9 doit avoir la priorit\u00e9 sur tous les autres modes de commande ou de fonctionnement, \u00e0 l'exception de l'arr\u00eat d'urgence.": "NF EN ISO 12100:2010",
+          "Si la machine a \u00e9t\u00e9 con\u00e7ue et construite pour permettre son utilisation selon plusieurs modes de commande ou de fonctionnement n\u00e9cessitant des mesures de pr\u00e9vention et/ou des proc\u00e9dures de travail diff\u00e9rentes, elle doit \u00eatre munie d'un s\u00e9lecteur de mode verrouillable dans chaque position. Chaque position du s\u00e9lecteur doit \u00eatre clairement Identifiable et ne doit permettre qu'un seul mode de commande ou de fonctionnement.": "NF EN ISO 18497 ",
+          "R\u00e9aliser la compatibilit\u00e9 \u00e9lectromagn\u00e9tique (CEM) ,": "CEI 60204-1\nCEI 61000-6.",
+          "L'\u00e9cran de contr\u00f4le doit \u00eatre positionn\u00e9 de mani\u00e8re \u00e0 se trouver dans l'arc de 180\u00b0 centr\u00e9 en face du conducteur.": "EN ISO 16001",
+          "Il convient que l'image sur l'\u00e9cran de contr\u00f4le soit affich\u00e9e de la fa\u00e7on intuitivement la plus logique pour l'application.": "EN ISO 16001",
+          "Minimiser la probabilit\u00e9 de d\u00e9faillance des fonctions de s\u00e9curit\u00e9 en utilisant des composants fiables et \u00e0 defaillance orirnt\u00e9e": "NF EN ISO 12100:2010",
+          "Minimiser la probabilit\u00e9 de d\u00e9faillance des fonctions de s\u00e9curit\u00e9 par duplication (ou redondance) de composants ou de sous-ensembles": "NF EN ISO 12100:2010"
+        },
+        "Logiciel": {
+          "Le logiciel doit \u00eatre con\u00e7u de mani\u00e8re \u00e0 satisfaire aux sp\u00e9cifications de performance correspondant aux fonctions de s\u00e9curit\u00e9 ": "NF EN ISO 12100:2010\nCEI 61508-3",
+          "Il est recommand\u00e9 que le logiciel d'application ne soit pas reprogrammable par l'utilisateur. Lorsque l'application n\u00e9cessite une reprogrammation par l'utilisateur, il convient que l'acc\u00e8s au logiciel traitant les fonctions de s\u00e9curit\u00e9 soit restreint": "NF EN ISO 12100:2010",
+          "La d\u00e9faillance du logiciel du syst\u00e8me de commande n\u2019entraine pas de situation dangereuse": "NF EN ISO 12100:2010",
+          "Des erreurs affectant la logique du syst\u00e8me de commande ou une erreur humaine raisonnablement pr\u00e9visible au cours du fonctionnement n\u2019entrainent pas de situation dangereuse": "NF EN ISO 12100:2010",
+          "Il convient d'int\u00e9grer aux syst\u00e8mes de commande des syst\u00e8mes de diagnostic destin\u00e9s \u00e0 faciliter la recherche de d\u00e9fauts de mani\u00e8re \u00e0 rendre inutile la neutralisation de mesures de pr\u00e9vention.": "NF EN ISO 12100:2010",
+          "D\u00e9tection imm\u00e9diate des d\u00e9fauts, ou contr\u00f4les p\u00e9riodiques permettant la d\u00e9tection d'un d\u00e9faut avant la prochaine sollicitation de la fonction de s\u00e9curit\u00e9. Dans les deux cas, une mesure de pr\u00e9vention (arr\u00eat du processus, alarme) peut \u00eatre imm\u00e9diatement d\u00e9clench\u00e9e, ou \u00eatre retard\u00e9e jusqu'\u00e0 ce qu'un \u00e9v\u00e9nement particulier se produise.": "NF EN ISO 12100:2010"
+        }
+      },
+      "Commande manuelle": {
+        "Une commande d'arr\u00eat doit \u00eatre dispos\u00e9e \u00e0 proximit\u00e9 de chaque commande de mise en marche": "NF EN ISO 12100:2010",
+        "Les organes de service doivent \u00eatre plac\u00e9s hors d'atteinte de personnes se tenant dans des zones dangereuses ": "NF EN ISO 12100:2010\nCEI 61310-3",
+        "Autant que possible, les dispositifs de commande et les postes de commande doivent \u00eatre plac\u00e9s de fa\u00e7on que l'op\u00e9rateur puisse observer la zone de travail ou la zone dangereuse": "NF EN ISO 12100:2010",
+        "S'il est possible de commander la mise en marche du m\u00eame \u00e9l\u00e9ment dangereux au moyen de plusieurs commandes, le circuit de commande doit \u00eatre con\u00e7u de sorte qu'une seule commande soit efficace \u00e0 un moment donn\u00e9": "NF EN ISO 12100:2010"
+      },
+      "Organes de service": {
+        "Clairement visibles et identifiables gr\u00e2ce \u00e0 des pictogrammes, le cas \u00e9ch\u00e9ant,": "NF EN ISO 12100:2010",
+        "Plac\u00e9s de fa\u00e7on \u00e0 pouvoir \u00eatre actionn\u00e9s en toute s\u00e9curit\u00e9, sans h\u00e9sitation ni perte de temps et sans \u00e9quivoque,": "NF EN ISO 12100:2010",
+        "Con\u00e7us de fa\u00e7on \u00e0 ce que le mouvement des organes de service soit coh\u00e9rent avec l'effet command\u00e9,": "NF EN ISO 12100:2010",
+        "Dispos\u00e9s hors des zones dangereuses sauf, si n\u00e9cessaire, pour certains organes de service, tels qu'un arr\u00eat d'urgence et une console d'apprentissage pour les robots,": "NF EN ISO 12100:2010",
+        "Situ\u00e9s de fa\u00e7on \u00e0 ce que le fait de les actionner ne puisse engendrer de risques suppl\u00e9mentaires,": "NF EN ISO 12100:2010",
+        "Con\u00e7us ou prot\u00e9g\u00e9s de fa\u00e7on \u00e0 ce que l'effet voulu, s'il peut entra\u00eener un danger, ne puisse \u00eatre obtenu que par une action volontaire,": "NF EN ISO 12100:2010",
+        "Lorsqu'un organe de service permet plusieurs actions diff\u00e9rentes, c'est-\u00e0-dire que son action n'est pas univoque, l'action command\u00e9e doit \u00eatre affich\u00e9e en clair et, si n\u00e9cessaire, faire l'objet d'une confirmation.": "NF EN ISO 12100:2010",
+        "Les organes de service doivent avoir une configuration telle que leur disposition, leur course et leur r\u00e9sistance soient compatibles avec l'action command\u00e9e, compte tenu des principes de l'ergonomie.": "NF EN ISO 12100:2010",
+        "La machine doit \u00eatre munie des dispositifs de signalisation n\u00e9cessaires pour pouvoir la faire fonctionner en toute s\u00e9curit\u00e9.": "NF EN ISO 12100:2010",
+        "Les organes de service doivent \u00eatre con\u00e7us ou prot\u00e9g\u00e9s pour que leur effet, si un risque peut en r\u00e9sulter, ne puisse se produire sans qu'ils soient actionn\u00e9s intentionnellement (voir l'ISO 9355-1, l'ISO 9355-3 et l'ISO447": "NF EN ISO 12100:2010",
+        "Les mouvements des machines t\u00e9l\u00e9command\u00e9es par liaison non filaire doivent s'arr\u00eater automatiquement lorsque la machine cesse de recevoir des signaux de commande corrects ou que la liaison est interrompue": "NF EN ISO 18497 \nCEI 60204-1"
+      }
+    },
+    "Op\u00e9ration agricole hautement automatis\u00e9e": {
+      "Mise en marche de l op\u00e9ration hautement automatis\u00e9e": {
+        "Moyen local ou \u00e0 distance permettant d'activer ou de d\u00e9sactiver les OHA.": "NF EN ISO 18497 ",
+        "Moyen local ou \u00e0 distance permettant de d\u00e9marrer ou d'arr\u00eater les OHA.": "NF EN ISO 18497 ",
+        "La proc\u00e9dure pour red\u00e9marrer l'OHA doit n\u00e9cessiter un d\u00e9clanchement par l'op\u00e9rateur.": "NF EN ISO 18497 "
+      },
+      "Mobilit\u00e9": {
+        "Perception": {
+          "D\u00e9tection": {
+            "La machine hautement automatis\u00e9 doit \u00eatre dot\u00e9e:\n* d'un syst\u00e8me de d\u00e9tection capable de d\u00e9tecter et localiser les personnes ou d\u2019autres obstacles pour la machine\n* d'un syst\u00e8me de d\u00e9tection capable de localiser et de positionner la machine selon les besoins des op\u00e9rations concern\u00e9es, tout en emp\u00eachant les excursions impr\u00e9vues au-del\u00e0 des limites de la zone de travail.": "NF EN ISO 18497 ",
+            "Note : voir ISO 16001, 2017,": "NF EN ISO 18497 ",
+            "Le syst\u00e8me doit s\u2019activer automatiquement au d\u00e9marrage ou \u00e0 la mise en route, doit proc\u00e9der \u00e0 un autocontr\u00f4le initial et donner une indication de fonctionnement appropri\u00e9e.": "NF EN ISO 18497 ",
+            "La d\u00e9tection doit avoir lieu de mani\u00e8re non ambigu\u00eb avec une s\u00e9quence continue de signaux ou d'informations appropri\u00e9s \u00e0 la zone de d\u00e9tection": "NF EN ISO 18497 ",
+            "Il est possible de combiner les syst\u00e8mes de d\u00e9tection d\u2019objets (ODS) et aide visuelle (VA) pour couvrir la zone de d\u00e9tection n\u00e9cessaire dans le cas o\u00f9 un seul syst\u00e8me ne peut couvrir la zone.": "EN ISO 16001",
+            "Un dispositif de d\u00e9tection d'objets (ODS) doit disposer d'une fonction de surveillance permanente comportant au moins les \u00e9l\u00e9ments suivants: un voyant d'indication de fonction (vert), si un mode d'attente est fourni, un voyant de mise en veille (clignotant ambre ou clignotant vert), et un signal de d\u00e9faillance visuel ou sonore, ou les deux, en cas de probl\u00e8me de fonctionnement du syst\u00e8me. ": "EN ISO 16001",
+            "Apr\u00e8s l\u2019introduction d\u2019un objet \u00e0 d\u00e9tecter, le temps de d\u00e9tection du syst\u00e8me ODS ne doit pas d\u00e9passer 300 ms.": "EN ISO 16001",
+            "En cas de dysfonctionnement du syst\u00e8me ODS, un avertissement doit \u00eatre donn\u00e9 \u00e0 l\u2019op\u00e9rateur, et toute op\u00e9ration d\u00e9pendante de ce syst\u00e8me est d\u00e9sactiv\u00e9e.": "EN ISO 16001",
+            "La compatibilit\u00e9 \u00e9lectromagn\u00e9tique (CEM) des syst\u00e8mes ODS et VA doit \u00eatre conforme \u00e0 l\u2019ISO 13766.": "EN ISO 16001",
+            "L\u2019environnement physique des conditions de fonctionnement dans lesquelles les syst\u00e8mes ODS et VA sont utilis\u00e9s doit \u00eatre conforme \u00e0 l'ISO 15998 ou \u00e0 l\u2019ISO 19014-3.": "EN ISO 16001",
+            "Il convient de prendre en compte les fonctions de la machine ainsi que les aspects op\u00e9rationnels et environnementaux des ODS et VA.": "EN ISO 16001"
+          }
+        },
+        "Planification": {
+          "D\u00e9cision": {
+            "Grantir qu'il n'y a pas d'obstacle dans la zone dangereuse avant tout mouvement ou d\u00e9clenchement d'OHA et durant la p\u00e9riode d'avertissement.": "NF EN ISO 18497 ",
+            "Autoriser la commande automatis\u00e9e des moteurs et du mouvement que lorsque l'OHA est activ\u00e9.": "NF EN ISO 18497 ",
+            "Autoriser le d\u00e9marrage du moteur, le d\u00e9marrage du mouvement des roues et le mouvement de la machine qu'en r\u00e9ponse \u00e0 une demande de l'op\u00e9rateur, qu'apr\u00e8s autorisation du syst\u00e8me de d\u00e9tection et qu'au terme de la p\u00e9riode d'avertissement.": "NF EN ISO 18497 ",
+            "Arr\u00eat du d\u00e9marrage du moteur \u00e0 l'entr\u00e9e d'un obstacle dans la zone dangereuse pendant la p\u00e9riode d'avertissement ou de d\u00e9marrage du moteur.": "NF EN ISO 18497 ",
+            "Interrompre le d\u00e9clenchement du mouvement des roues et du mouvement de la machine s'il y a une entr\u00e9e d'un obstacle dans la zone dangereuse pendant la p\u00e9riode d'avertissement.": "NF EN ISO 18497 ",
+            "D\u00e9sactivation des OHA en cas de d\u00e9faillance du moteur.": "NF EN ISO 18497 ",
+            "Autoriser le d\u00e9marrage du mouvement des roues qu'en r\u00e9ponse \u00e0 une demande de l'op\u00e9rateur et qu'apr\u00e8s autorisation du syst\u00e8me de de d\u00e9tection.": "NF EN ISO 18497 ",
+            "Arr\u00eat du mouvement de la MAHA s'il y a une entr\u00e9e d'un obstacle dans la zone dangereuse autour de la machine.": "NF EN ISO 18497 ",
+            "Les commandes manuelles l'emportent sur le fonctionnement hautement automatis\u00e9.": "NF EN ISO 18497 ",
+            "Limitation automatique de la vitesse de fonctionnement suivant le manuel de l'op\u00e9rateur.": "NF EN ISO 18497 "
+          }
+        },
+        "Action": {
+          "La vitesse de fonctionnement maximale d'une machine durant une OHA doit \u00eatre compatible avec les sp\u00e9cifications du syst\u00e8me de d\u00e9tection.": "NF EN ISO 18497 "
+        }
+      }
+    }
+  },
+  "Informations pour les utilisateurs": {
+    "Exigence G\u00e9n\u00e9rale": {
+      "Les informations pour l'utilisation sont destin\u00e9es aux utilisateurs professionnels et/ou non professionnels.": "Les informations pour l'utilisation sont destin\u00e9es aux utilisateurs professionnels et/ou non professionnels.",
+      "Des informations doivent \u00eatre fournies \u00e0 l'utilisateur sur l'utilisation normale de la machine, qui tiennent compte notamment de tous ses modes de fonctionnement.": "Des informations doivent \u00eatre fournies \u00e0 l'utilisateur sur l'utilisation normale de la machine, qui tiennent compte notamment de tous ses modes de fonctionnement.",
+      "Les informations pour l'utilisation doivent couvrir, s\u00e9par\u00e9ment ou conjointement, le transport, l'assemblage et l'installation, la mise en service, l'utilisation de la machine (r\u00e9glage, apprentissage, programmation ou changement de processus de fabrication, fonctionnement, nettoyage, recherche de d\u00e9fauts et entretien/maintenance) et, si n\u00e9cessaire, son d\u00e9montage, sa mise hors service et sa mise au rebut.": "Les informations pour l'utilisation doivent couvrir, s\u00e9par\u00e9ment ou conjointement, le transport, l'assemblage et l'installation, la mise en service, l'utilisation de la machine (r\u00e9glage, apprentissage, programmation ou changement de processus de fabrication, fonctionnement, nettoyage, recherche de d\u00e9fauts et entretien/maintenance) et, si n\u00e9cessaire, son d\u00e9montage, sa mise hors service et sa mise au rebut."
+    },
+    "Surveillance": {
+      "Pr\u00e9sence d'un syst\u00e8me de surveillance local ou \u00e0 distance.": "NF EN ISO 18497 ",
+      "Surveillance du moteur et sa zone dangereuse de mani\u00e8re permanente.": "NF EN ISO 18497 ",
+      "Communication permanente avec le syst\u00e8me de surveillance.": "NF EN ISO 18497 ",
+      "Surveillance automatique continue de l'\u00e9tat de mouvement de la machine \u00e0 disposition de l'op\u00e9rateur.": "NF EN ISO 18497 ",
+      "Acc\u00e8s continu \u00e0 l'\u00e9tat de fonctionnement du syst\u00e8me et aux informations de s\u00e9curit\u00e9 pertinentes.": "NF EN ISO 18497 ",
+      "Indication et enregistrement des raisons pour lesquelles l'\u00e9tat de s\u00e9curit\u00e9 a \u00e9t\u00e9 initi\u00e9 (Syst\u00e8me de diagnostic).": "NF EN ISO 18497 "
+    },
+    "Signaux et dispositifs d avertissement": {
+      "Des signaux visuels, tels que des lampes clignotantes, et des signaux sonores, tels que des sir\u00e8nes, peuvent \u00eatre utilis\u00e9s pour avertir d'un \u00e9v\u00e9nement dangereux imminent, comme la mise en marche ou la survitesse d'une machine. De tels signaux peuvent \u00e9galement \u00eatre utilis\u00e9s pour avertir l'op\u00e9rateur avant le d\u00e9clenchement automatique de mesures pr\u00e9ventives.": "NF EN ISO 12100:2010",
+      "Il est essentiel que ces signaux:\n\u2022 soient \u00e9mis avant que l'\u00e9v\u00e9nement dangereux se produise,\n\u2022 ne soient pas ambigus,\n\u2022 puissent \u00eatre clairement per\u00e7us, et distingu\u00e9s de tous les autres signaux utilis\u00e9s, et\n\u2022 puissent \u00eatre clairement reco": "NF EN ISO 12100:2010",
+      "Les dispositifs d'avertissement doivent \u00eatre con\u00e7us et plac\u00e9s de mani\u00e8re \u00e0 pouvoir \u00eatre facilement contr\u00f4l\u00e9s.": "NF EN ISO 12100:2010",
+      "Les informations pour l'utilisation doivent prescrire un contr\u00f4le p\u00e9riodique des dispositifs d'avertissement.": "NF EN ISO 12100:2010",
+      "L'attention des concepteurs est attir\u00e9e sur le risque de \u00absaturation sensorielle\u00bb r\u00e9sultant d'un trop grand nombre de signaux visuels et/ou sonores, qui peut aussi conduire \u00e0 la neutralisation des dispositifs d'avertissement.": "NF EN ISO 12100:2010"
+    },
+    "Inscription, signes et avertissements \u00e9crits": {
+      "La machine doit porter toutes les inscriptions n\u00e9cessaires:\n\u2022 Pour qu'elle puisse \u00eatre identifi\u00e9e sans ambigu\u00eft\u00e9, comprenant au moins\no le nom et l'adresse du fabricant,\no la d\u00e9signation de la s\u00e9rie ou du type, et\no le num\u00e9ro de s\u00e9rie, s'il y a lieu;\n\u2022 pour indiquer qu'elle est conforme aux dispositions r\u00e9glementaires, comprenant\no un marquage, et\no des indications \u00e9crites (par exemple mandataire du fabricant, d\u00e9signation de la machine, ann\u00e9e de construction, utilisation normale en atmosph\u00e8re explosible);\n\u2022 pour la s\u00e9curit\u00e9 d'utilisation, par exemple:\no la vitesse de rotation maximale des \u00e9l\u00e9ments tournants;\no le diam\u00e8tre maximal des outils;\no la masse (exprim\u00e9e en kilogrammes) de la machine elle-m\u00eame et/ou de parties amovibles;\no la charge maximale d'utilisation;\no la n\u00e9cessit\u00e9 de porter un \u00e9quipement de protection individuelle;\no les donn\u00e9es pour le r\u00e9glage des protecteurs;\no la p\u00e9riodicit\u00e9 des inspections.": "NF EN ISO 12100:2010",
+      "Il convient que les informations inscrites directement sur la machine soient permanentes et restent lisibles pendant toute la dur\u00e9e escompt\u00e9e de la vie de la machine.": "NF EN ISO 12100:2010",
+      "Des signes ou avertissements \u00e9crits limit\u00e9s au seul message \u00abdanger\u00bb ne doivent pas \u00eatre utilis\u00e9s.": "NF EN ISO 12100:2010",
+      "Les inscriptions doivent \u00eatre conformes \u00e0 des normes reconnues (par exemple l'ISO 2972 et l'ISO 7000, en particulier pour les pictogrammes, les symboles et les couleurs).": "NF EN ISO 12100:2010",
+      "Voir la CEI 60204-1 en ce qui concerne le marquage de l'\u00e9quipement \u00e9lectrique.": "NF EN ISO 12100:2010",
+      "Voir l'ISO 4413 et l'ISO 4414 en ce qui concerne le marquage de l'\u00e9quipement hydraulique et pneumatique.": "NF EN ISO 12100:2010"
+    },
+    "Documents d acompagnement": {
+      "Les documents d'acompagnement doivent \u00eatre r\u00e9alis\u00e9s selon la norme ISO 12100": "NF EN ISO 12100:2010",
+      "Notice d'instruction : ISO 12100 : 6,4,5": "NF EN ISO 12100:2010",
+      "La documentation relative \u00e0 l'appr\u00e9ciation du risque doit pr\u00e9senter la proc\u00e9dure qui a \u00e9t\u00e9 suivie et les r\u00e9sultats qui ont \u00e9t\u00e9 atteints": "NF EN ISO 12100:2010"
+    }
+  }
+}

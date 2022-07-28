@@ -1,0 +1,32 @@
+body,table,thead,tbody{
+    width: 100%;
+}
+th{
+    border: 2px solid black;
+    margin: 0 0 0 0;
+    column-gap: 0;
+    column-width:125px;
+}
+tr{
+    
+    max-height: 40px;
+}
+td{
+    height: fit-content;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+td:hover{
+    background-color: wheat;
+    cursor: pointer;
+}
+@media  screen and (max-width:480px) {
+    body{
+        font-size:x-large;
+    }
+}
+@media (orientation:portrait) {
+    body{
+        font-size:x-large;
+    }
+}

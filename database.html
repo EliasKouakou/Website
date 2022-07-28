@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta http-equiv="Content-Type" content="text/html;UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>database</title>
+    <!-- <link rel="stylesheet" href="../css/database.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <fieldset style="min-height:100% ;width:100%;top:0;bottom:0;left:0;right:0;position: absolute;">
+        <a href="./mainpage.html"><i class="fa fa-home"></i></a>     
+        <div style="float:right;margin-right: 45%;">
+        <select name="switch" id="" onchange="if (this.value) window.location.href=this.value;">
+            <option value="./insertion.html">insertion </option>
+            <option value="./database.html" selected>database</option>
+            <option value="./selection.html" >selection</option>
+            <option value="./display.html" >display</option>
+            
+        </select>
+    </div>
+    <br>
+    
+    <div style="margin-top:10px;overflow:scroll;max-height: 85%;border:2px solid blue;width: 100;">
+        <table  contenteditable="true" aria-expanded="true"  >
+        <thead >
+            <!-- insert head here -->
+        </thead>
+        <tbody>
+            <!-- insert here -->
+        </tbody>
+        </table>
+    </div>
+
+    <br>
+    <div style="margin-left:50% ;margin-right: 50%;width: 300px;justify-content: space-between;">
+        <input type="button" value="Add" onclick="AddRow()">
+        <input type="button" value="Save" onclick="SaveRow()" >
+        <input type="button" value="Delete" onclick="DeleteRow()" >
+        <!-- <input type="button" value="Add column" onclick="AddColumn()"> -->
+           
+
+    </div>  
+    <br>
+    <!-- <div style="margin-left:50% ;margin-right: 50%;width: 200px;justify-content: space-between;">
+         <input type="text" name="col-name" id="col-name" placeholder="insert column name">
+    </div> -->
+
+    <div style="float:right;justify-content: space-between;">
+        <a href="./insertion.html"><input type="button" value="Ok" ></a> 
+        <a href="#"><input type="button" value="Cancel"></a>
+    </div>
+    <script  src="./js/database.js"></script>
+</fieldset>
+</body>
+</html>
+
+
+<!-- https://sqliteonline.com/ -->
