@@ -1,27 +1,44 @@
 
-let url='http://localhost:3000/exigences' 
+// let url='http://localhost:3000/exigences' 
+// let url='http://maha.epizy.com/web_app/resources/databases/MAHA_DataBase.db.json'
+// let url='https://mahaapp.000webhostapp.com/resources/databases/MAHA_DataBase.db.json'
+let url='https://api.jsonbin.io/v3/b/62e3ac502c868775a53e7e2a'
+
 // https://dev.to/myogeshchavan97/how-to-easily-create-and-host-your-own-rest-api-without-writing-a-single-line-of-code-2np4
 
+const GET=async function(){
+    const settings = {
+        mode:'cors',
+        method: 'GET',
+        headers: {'Content-Type': 'application/json; charset=utf-8','X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'}
+    };
+    const ResponseData = await fetch(url,settings)
+    const Data = await ResponseData.json();
+    sessionStorage.setItem('init_Data',JSON.stringify(Data.record)) 
+}
+
+GET()
 
 
 
-const PUT=async function(Data){
+const PUT=async function(DATA){
     const settings = {
         mode: "cors",
         method: 'PUT',
-        body:JSON.stringify(Data),
+        body:JSON.stringify(DATA),
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
+            'X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'
         }
     };
     try {
         const ResponseData= await fetch(url, settings);
         console.log(ResponseData)
-        const Data2 = await ResponseData.json();
-        console.log(Data2)
+        const Data = await ResponseData.json();
+        console.log(Data)
         if(sessionStorage.getItem('init_Data')==null){
-            sessionStorage.setItem('init_Data',JSON.stringify(Data2))
+            sessionStorage.setItem('init_Data',JSON.stringify(Data.record))
         }
     } catch (e) {
         return e;
@@ -29,20 +46,20 @@ const PUT=async function(Data){
 }
 
 
-const POST=async function(Data){
+const POST=async function(DATA){
 
     const settings = {
         mode:'cors',
         method: 'POST',
-        body:JSON.stringify(Data),
-        headers: {'Content-Type': 'application/json; charset=utf-8',}
+        body:JSON.stringify(DATA),
+        headers: {'Content-Type': 'application/json; charset=utf-8','X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'}
     };
     const ResponseData= await fetch(url, settings);
     console.log(ResponseData)
-    const Data2 = await ResponseData.json();
-    console.log(Data2)
+    const Data = await ResponseData.json();
+    console.log(Data)
     if(sessionStorage.getItem('init_Data')==null){
-        sessionStorage.setItem('init_Data',JSON.stringify(Data2))
+        sessionStorage.setItem('init_Data',JSON.stringify(Data.record))
     }
 }
 
@@ -51,7 +68,7 @@ function DELETE(DATA,id){
     var myInit={
         mode: "cors",
         method:'DELETE',
-        headers:{'Content-Type':'application/json;charset=utf-8'},
+        headers:{'Content-Type':'application/json;charset=utf-8','X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'},
         body:DATA,
         }
     
@@ -61,7 +78,7 @@ function DELETE(DATA,id){
             .then(function(resp){return resp})
             .then(function(data){
                 console.log(data)
-                sessionStorage.setItem('init_Data',JSON.stringify(data))
+                sessionStorage.setItem('init_Data',JSON.stringify(data.record))
             })
         } catch (error) {
             
@@ -80,10 +97,17 @@ console.log(Exigence)
 
 
 function InitAddExigence(){
+
+
     let tbody=document.querySelector("tbody")
-    for(let j=0;j<DataBASE.length;j++){
+    try {
+       for(let j=0;j<DataBASE.length;j++){
         AddtoTable(DataBASE[j])  
+    } 
+    } catch (error) {
+        
     }
+    
 }
 
 function AddtoTable(Exigence){
@@ -104,16 +128,22 @@ function AddtoTable(Exigence){
 function AddHead(){
     let thead=document.querySelector("thead")
     let tr=document.createElement('tr')
-    Exigence=DataBASE[0]
-    for(let i=0;i<11;i++){
-        var th=document.createElement('th')
-        th.innerHTML=Object.keys(Exigence)[i]
-        if(i==8){
-            th.setAttribute('colspan',3)
+
+    try {
+            Exigence=DataBASE[0]
+        for(let i=0;i<11;i++){
+            var th=document.createElement('th')
+            th.innerHTML=Object.keys(Exigence)[i]
+            if(i==8){
+                th.setAttribute('colspan',3)
+            }
+            tr.appendChild(th)
         }
-        tr.appendChild(th)
+        thead.appendChild(tr)
+    } catch (error) {
+        
     }
-    thead.appendChild(tr)
+    
 }
 
 
