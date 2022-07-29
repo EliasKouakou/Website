@@ -1,15 +1,19 @@
 
-let url='http://localhost:3000/exigences'
+// let url='http://localhost:3000/exigences'
+// let url='https://mahaapp.000webhostapp.com/resources/databases/MAHA_DataBase.db.json'
+// let url='http://maha.epizy.com/resources/databases/MAHA_DataBase.db.json'
+let url='https://api.jsonbin.io/v3/b/62e3ac502c868775a53e7e2a'
 
 const GET=async function(){
     const settings = {
         mode:'cors',
         method: 'GET',
-        headers: {'Content-Type': 'application/json; charset=utf-8',}
+        headers: {'Content-Type': 'application/json; charset=utf-8','X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'}
     };
     const ResponseData = await fetch(url,settings)
+    console.log(ResponseData)
     const Data = await ResponseData.json();
-    sessionStorage.setItem('init_Data',JSON.stringify(Data)) 
+    sessionStorage.setItem('init_Data',JSON.stringify(Data.record)) 
 }
 
 GET()
@@ -91,21 +95,20 @@ function Display(){
 
 var instruction
 
-const POST=async function(Data){
+const POST=async function(DATA){
 
     const settings = {
         mode:'cors',
         method: 'POST',
-        body:JSON.stringify(Data),
-        headers: {'Content-Type': 'application/json; charset=utf-8',}
+        body:JSON.stringify(DATA),
+        headers: {'Content-Type': 'application/json; charset=utf-8','X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'}
     };
     try {
         const ResponseData= await fetch(url, settings);
         console.log(ResponseData)
-        const Data2 = await ResponseData.json();
-        console.log(Data2)
+        const Data = await ResponseData.json();
         if(sessionStorage.getItem('init_Data')==null){
-            sessionStorage.setItem('init_Data',JSON.stringify(Data2))
+            sessionStorage.setItem('init_Data',JSON.stringify(Data.record))
         }
     } catch (error) {
         
@@ -123,28 +126,30 @@ function Add(){
 
 }
 
-const PUT=async function(Data){
+const PUT=async function(DATA){
     const settings = {
         mode: "cors",
         method: 'PUT',
-        body:JSON.stringify(Data),
+        body:JSON.stringify(DATA),
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
+            'X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'
         }
     };
     try {
         const ResponseData= await fetch(url, settings);
         console.log(ResponseData)
-        const Data2 = await ResponseData.json();
-        console.log(Data2)
+        const Data = await ResponseData.json();
+        console.log(Data)
         if(sessionStorage.getItem('init_Data')==null){
-            sessionStorage.setItem('init_Data',JSON.stringify(Data2))
+            sessionStorage.setItem('init_Data',JSON.stringify(Data.record))
         }
     } catch (e) {
         
     }    
 }
+
 function Save(){
     Display()
     instruction='Save'
@@ -157,7 +162,7 @@ function DELETE(DATA,id){
     var myInit={
         mode: "cors",
         method:'DELETE',
-        headers:{'Content-Type':'application/json;charset=utf-8'},
+        headers:{'Content-Type':'application/json;charset=utf-8','X-MASTER-Key': '$2b$10$VtbT3yNh5czEH1kwdD2bRuBXW0N8jhIUsM9sOLI6tNEJShsSJb9Mq'},
         body:DATA,
         }
     
@@ -167,7 +172,7 @@ function DELETE(DATA,id){
             .then(function(resp){return resp})
             .then(function(data){
                 console.log(data)
-                sessionStorage.setItem('init_Data',JSON.stringify(data))
+                sessionStorage.setItem('init_Data',JSON.stringify(data.record))
             })
         } catch (error) {
             
@@ -203,7 +208,9 @@ function Cancel(){
 function displayAllInfo(){
     
     Display()
-    var id=Exigence.id
+
+    try {
+        var id=Exigence.id
     var tdb=DataBASE.filter(X=>X['id']==id)
     if(tdb.length>0){
         for(let j=1;j<8;j++){
@@ -221,6 +228,10 @@ function displayAllInfo(){
     }else{
         Cancel()
     }
+    } catch (error) {
+        
+    }
+    
 }
 
 
