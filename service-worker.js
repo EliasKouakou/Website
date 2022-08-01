@@ -1,6 +1,6 @@
 
 var CACHE_NAME = 'PWA';
-var OFFLINE_URL = ['/'];
+var OFFLINE_URL = ['/Website'];
 
 self.addEventListener('install', function(event) {
   console.log('[ServiceWorker] Install');
